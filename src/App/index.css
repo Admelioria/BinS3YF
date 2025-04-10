@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  background: #4dd0e1;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.shutdown {
+  background: red;
+  color: white;
+}
+
